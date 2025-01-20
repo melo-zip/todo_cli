@@ -35,3 +35,7 @@ The following environment variables are used to configure the PostgreSQL instanc
 A `tasks` table will be created in the `todo_db` database during the initialization of the container. This table will store task data for the application.
 
 The database data is persisted in the db-data volume, ensuring that your task data will remain intact even if the container is stopped or removed.
+
+### Running the Application
+
+The main entry point for this project is located in the `MenuController` class. To run the project, make sure all dependencies are set up, then run the `MenuController.main()` method.
